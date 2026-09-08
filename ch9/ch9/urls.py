@@ -24,3 +24,13 @@ urlpatterns = [
     path('', include('app2.urls')),
     path('course', include('course.urls')),
 ]
+
+
+# urlpatterns = [
+#     path('admin/', admin.site.urls), 
+#     path('', include([
+#     path('dj/', learn_django, name = 'learn_django'),
+#     path('pj/', learn_django, {'status' : 'ok'}, name = 'learn_django'),
+#     path('', home, name = 'home'),
+# ])),
+# ]
