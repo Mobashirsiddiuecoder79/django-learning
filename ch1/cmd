@@ -1,0 +1,3 @@
+git add .
+git commit -m "learn: django templates"
+git push
